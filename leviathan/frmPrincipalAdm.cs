@@ -20,7 +20,12 @@ namespace leviathan
         DateTime tela;
         private void frmPrincipalAdm_Load(object sender, EventArgs e)
         {
-
+            tela = DateTime.Now;
+            timer1.Enabled = true;
+            Left = 0;
+            Top = 0;
+            Width = Screen.PrimaryScreen.WorkingArea.Width;
+            Height = Screen.PrimaryScreen.WorkingArea.Height;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
