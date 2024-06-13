@@ -44,7 +44,6 @@ namespace leviathan
                 sql += "from tblCliente \n";
                 sql += "where funcionarioId = @funcionarioId";
                 parameters.Add(new SqlParameter("funcinarioId", FuncionarioId));
-               
 
 
             }
