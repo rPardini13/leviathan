@@ -20,6 +20,7 @@ namespace leviathan
         DateTime tela;
         private void frmPrincipalAdm_Load(object sender, EventArgs e)
         {
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
